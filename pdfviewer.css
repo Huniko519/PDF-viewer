@@ -1,0 +1,77 @@
+/*
+ * Copyright 2014 Ambris 
+ *
+ * Project : Very simple PDF viewer jQuery plugin
+ *
+ * author: Richard Stefan (richard.stefan@ambris.com)
+ *
+ * Licensed under the Apache License, Version 2.0(the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http: //www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+.body 
+{
+	position: relative;
+}
+
+.pdf-container
+{
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	top: 20px;
+	bottom: 20px;
+
+	background-color: #aaaaaa;
+	border: solid 1px #111111;
+	overflow: hidden;
+}
+
+.pdf-toolbar
+{
+	background-color: #cccccc;
+	position: relative;
+	top: 0;
+	z-index: 100;
+	width: 100%;
+
+	line-height: 40px;
+
+
+}
+
+.pdf-container .pdf-canvas {
+	position: absolute;
+	margin-top: 40px;
+	top: 0;
+	bottom: 0px;
+	left: 0;
+	right: 0;
+	overflow: auto;
+}
+.pdf-container canvas {
+	position: relative;
+	display: inline-block;
+}
+
+/*
+.pdf-container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;	
+
+	background-color: #aaaaaa;
+	border: solid 1px #111111;
+	overflow: hidden;
+
+}
+*/
